@@ -7,6 +7,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* NAVBAR */
+
 li, a , button, h1 {
     font-size: 16px;
     color: #edf0f1;
@@ -19,10 +21,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
 }
 
 .logo {
     cursor: pointer;
+    font-size: 20px;
 }
 
 .nav-links {
@@ -53,4 +58,14 @@ button {
 
 button:hover {
     background-color: rgba(0,136,169,0.8);
+}
+
+.cartWidget {
+    color: #edf0f1;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.cartWidget:hover {
+    color: #0088a9;
 }

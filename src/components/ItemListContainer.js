@@ -2,8 +2,8 @@ import React from "react";
 import ItemCount from "./ItemCount";
 
 function ItemListContainer({ nombre, apellido }) {
-  function onAdd() {
-    console.log("Se agregaron los productos al carrito");
+  function onAdd(cantidad) {
+    console.log("Se agregaron " + cantidad + " productos al carrito");
   }
 
   return (

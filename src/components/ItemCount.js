@@ -22,7 +22,7 @@ function ItemCount({ stock, initial, onAdd }) {
 
   function resetear() {
     if (count <= stock && count > 0) {
-      onAdd()
+      onAdd(count)
       setCount(initial)
     }
   }

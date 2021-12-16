@@ -9,10 +9,9 @@
 
 /* NAVBAR */
 
-li,
+nav.li,
 a,
-button,
-h1 {
+button {
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
@@ -31,6 +30,7 @@ header {
 .logo {
   cursor: pointer;
   font-size: 20px;
+  color: #edf0f1;
 }
 
 .nav-links {

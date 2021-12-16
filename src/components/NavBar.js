@@ -18,9 +18,6 @@ const NavBar = () => {
           </li>
         </ul>
       </nav>
-      <a className="cta" href="#">
-        <button>Login</button>
-      </a>
       <CartWidget />
     </header>
   );

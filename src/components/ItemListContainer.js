@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from "react";
-import ItemCount from "./ItemCount";
 import ItemList from "./ItemList";
 
 
 function ItemListContainer({ nombre, apellido }) {
-  function onAdd(cantidad) {
-    console.log("Se agregaron " + cantidad + " productos al carrito");
-  }
 
   const promiseItems = () => {
     return new Promise((resolve, reject) => {
@@ -33,8 +29,7 @@ function ItemListContainer({ nombre, apellido }) {
       <h2>
         ¡Bienvenido {nombre} {apellido}! Comienza a comprar
       </h2>
-      <ItemCount stock={5} initial={1} onAdd={onAdd} />
-      {productos.length === 0 ? (<h2>Cargando...</h2>) : (<ItemList items={productos} />)}
+      {productos.length === 0 ? (<h2>Cargando lista de productos...</h2>) : (<ItemList items={productos} />)}
     </>
   );
 }

@@ -2,13 +2,11 @@ import Item from "./Item"
 
 function ItemList({ items }) {
     return (
-        <>
-            <ul>
-                {items.map((producto) => (
-                    <Item item={producto} key={producto.id} />
-                ))}
-            </ul>
-        </>
+        <div className="catalogo">
+            {items.map((producto) => (
+                <Item item={producto} key={producto.id} />
+            ))}
+        </div>
     )
 }
 

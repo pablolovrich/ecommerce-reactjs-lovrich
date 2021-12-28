@@ -26,7 +26,7 @@ function ItemDetailContainer() {
 
         if (id) {
             getItem().then((data) => {
-                const dataSeleccionada = data.find((producto) => producto.id == id)
+                const dataSeleccionada = data.find((producto) => producto.id === Number(id))
                 setProducto(dataSeleccionada)
             })
         }

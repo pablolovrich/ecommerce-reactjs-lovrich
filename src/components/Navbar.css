@@ -35,10 +35,16 @@
 
 .cartWidget {
   color: #edf0f1;
+  margin-right: 10px;
   font-size: 20px;
   transition: all 0.3s ease 0s;
 }
 
 .cartWidget:hover {
   color: #0088a9;
+}
+
+.contador {
+  color: #edf0f1;
+  font-size: 20px;
 }

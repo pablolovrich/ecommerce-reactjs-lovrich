@@ -9,14 +9,11 @@ function CartWidget() {
   const { cantidad_total } = useContexto()
 
   return (
-    <div>
-      <NavLink to="/cart">
-        <FontAwesomeIcon icon={faShoppingCart} className="cartWidget" />
-      </NavLink >
-      <span className="contador">
-        {cantidad_total}
-      </span>
-    </div >)
+    <NavLink to="/cart">
+      <FontAwesomeIcon icon={faShoppingCart} />
+      {cantidad_total}
+    </NavLink>
+  )
 }
 
 export default CartWidget;

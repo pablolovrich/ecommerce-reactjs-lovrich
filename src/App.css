@@ -7,47 +7,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-main {
-  padding: 1rem;
-  flex-grow: 1;
-  padding: 1rem;
-}
-
-button {
-  padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover {
-  background-color: rgba(0, 136, 169, 0.8);
-}
-
-/* CONTADOR */
-
-.contadorContainer {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15px;
-}
-
-.topContador {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
 .catalogo {
   display: flex;
   max-width: 1200px;
@@ -96,30 +55,4 @@ button:hover {
 
 .contadorContainer button {
   color: #edf0f1;
-}
-
-.formulario {
-  max-width: 600px;
-  margin-top: 50px;
-  background-color: lightblue;
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
-}
-
-.formulario > div {
-  margin-bottom: 20px;
-}
-
-.formulario label {
-  display: block;
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-
-.formulario input,
-.formulario textarea {
-  width: 100%;
-  padding: 10px;
 }

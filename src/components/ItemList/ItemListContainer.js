@@ -13,29 +13,16 @@ function ItemListContainer({ greeting }) {
   useEffect(() => {
 
     const productsCollection = collection(db, "products")
+    const consulta = categoryId !== undefined ? query(productsCollection, where("category", "==", categoryId)) : null;
+    const docs = categoryId !== undefined ? getDocs(consulta) : getDocs(productsCollection);
 
-    if (categoryId) {
-
-      const consulta = query(productsCollection, where("category", "==", categoryId))
-      getDocs(consulta)
-        .then(({ docs }) => {
-          setProductos(docs.map((doc) => ({ id: doc.id, ...doc.data() })))
-        })
-        .catch((error) => {
-          console.log(error)
-        })
-
-    } else {
-
-      getDocs(productsCollection)
-        .then(({ docs }) => {
-          setProductos(docs.map((doc) => ({ id: doc.id, ...doc.data() })))
-        })
-        .catch((error) => {
-          console.log(error)
-        })
-    }
-
+    docs
+      .then(({ docs }) => {
+        setProductos(docs.map((doc) => ({ id: doc.id, ...doc.data() })))
+      })
+      .catch((error) => {
+        console.log(error)
+      })
   }, [categoryId])
 
   return (

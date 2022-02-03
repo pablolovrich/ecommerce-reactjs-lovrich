@@ -8,7 +8,6 @@ function Cart() {
     const { carrito, removeItem, clear, precio_total, sumItem, resItem } = useContexto()
 
     const finalizarCompra = () => {
-        console.log("Guardando la compra en la db...")
         const ventasCollection = collection(db, "ventas")
         addDoc(ventasCollection, {
             buyer: {
@@ -24,8 +23,8 @@ function Cart() {
         })
             .then((res) => {
                 console.log(res)
+                clear()
             })
-        clear()
     }
 
     return (

@@ -3,7 +3,7 @@ import CartWidget from "./CartWidget";
 
 const NavBar = ({ toggle }) => {
   return (
-    <header className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm" role="navigation">
+    <header className="flex justify-around items-center h-28 bg-black text-white relative shadow-sm" role="navigation">
       <NavLink to="/" className="pl-8 text-xl font-bold">
         TODO DEPORTES
       </NavLink>
@@ -14,7 +14,7 @@ const NavBar = ({ toggle }) => {
         <div className="pr-8 md:block hidden">
           <NavLink to="/category/hombres" className="p-4">Hombres</NavLink>
           <NavLink to="/category/mujeres" className="p-4">Mujeres</NavLink>
-          <NavLink to="/category/niños" className="p-4">Niños</NavLink>
+          <NavLink to="/category/niños" className="p-4 pr-20">Niños</NavLink>
           <CartWidget />
         </div>
       </nav>

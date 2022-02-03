@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
-import { db } from "../firebase";
+import { db } from "../../firebase";
 import { getDocs, collection, query, where } from "firebase/firestore"
 
 function ItemListContainer({ greeting }) {
@@ -40,8 +40,8 @@ function ItemListContainer({ greeting }) {
 
   return (
     <>
-      <h2>{greeting}</h2>
-      {productos.length === 0 ? (<h2 className="cargando">Cargando lista de productos...</h2>) : (<ItemList items={productos} />)}
+      <h2 className="text-2xl font-bold mt-12 text-center">{greeting}</h2>
+      {productos.length === 0 ? (<h2 className="my-16 text-2xl text-center font-bold">Cargando lista de productos...</h2>) : (<ItemList items={productos} />)}
     </>
   );
 }

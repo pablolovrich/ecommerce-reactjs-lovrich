@@ -62,6 +62,11 @@ Se abrirá automáticamente en el navegador o ingresar a [http://localhost:3000]
 
 [![carrito.png](https://i.postimg.cc/02vwLKqL/carrito.png)](https://postimg.cc/F1PzSRzZ)
 
+## Pendientes
+
+- Optimizar versión mobile
+- Agregar componente Formulario para los datos al finalizar la compra
+
 ## Autor:
 
 ```

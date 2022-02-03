@@ -48,19 +48,19 @@ Se abrirá automáticamente en el navegador o ingresar a [http://localhost:3000]
 
 ### Home
 
-[home.png](https://postimg.cc/QF7dvJb4)
+[![home.png](https://i.postimg.cc/CxPnBvfg/home.png)](https://postimg.cc/QF7dvJb4)
 
 ### Listado de productos
 
-[productos.png](https://postimg.cc/vckmPNWx)
+[![productos.png](https://i.postimg.cc/wjTsBKM2/productos.png)](https://postimg.cc/vckmPNWx)
 
 ### Detalle del producto
 
-[detalle.png](https://postimg.cc/LnnX3pZM)
+[![detalle.png](https://i.postimg.cc/bNRt8Yyd/detalle.png)](https://postimg.cc/LnnX3pZM)
 
 ### Carrito con productos
 
-[carrito.png](https://postimg.cc/F1PzSRzZ)
+[![carrito.png](https://i.postimg.cc/02vwLKqL/carrito.png)](https://postimg.cc/F1PzSRzZ)
 
 ## Autor:
 

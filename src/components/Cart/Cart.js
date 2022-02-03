@@ -12,9 +12,9 @@ function Cart() {
         const ventasCollection = collection(db, "ventas")
         addDoc(ventasCollection, {
             buyer: {
-                name: "Juan",
-                phone: 123456789,
-                email: "aaa@gmail.com"
+                name: "Nombre del comprador",
+                phone: "Teléfono",
+                email: "email@email.com"
             },
             items: {
                 carrito

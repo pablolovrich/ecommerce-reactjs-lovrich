@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# PROYECTO REACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrpición
 
-## Available Scripts
+Este proyecto fue desarrollado como trabajo final para el curso de React Js en Coderhouse. El mismo simula un ecommerce para la venta de productos con su respectivo carrito de compras.
 
-In the project directory, you can run:
+El proyecto fue iniciado con [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm start`
+Para los estilos se utilizó Tailwind CSS en su versión 2.2.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Funcionalidad:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+En este trabajo se utilizó ReactJs para simular la funcionalidad de un ecommerce.
+El mismo cuenta con una lista de productos traida de firebase, se puede acceder al detalle de cada producto y al carrito de compras.
+Por último, cuando el usuario finaliza la compra, los datos de esta se guardan en la data base de firebase.
 
-### `npm test`
+## ¿Como utilizar esta app?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clonar el repositorio
 
-### `npm run build`
+#### `$ git clone https://github.com/pablolovrich/ecommerce-lovrich.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Ingresar al directorio del proyecto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### `$ cd ecommerce-lovrich`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Dentro del directorio del proyecto, instalar las dependencias correspondientes:
 
-### `npm run eject`
+#### `$ npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 4. Iniciar la app con el siguiente comando:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### `$ npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Este comando inicia la app en el modo desarrollo.  
+Se abrirá automáticamente en el navegador o ingresar a [http://localhost:3000](http://localhost:3000)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Tecnologías usadas:
 
-## Learn More
+| Herramientas        | Funcionalidad |
+| ------------------- | ------------- |
+| React Router Dom v6 | Router        |
+| Firebase            | Base de datos |
+| Tailwind v2.2       | Estilos       |
+| Font Awesome        | Iconos        |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Diseño:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Home
 
-### Code Splitting
+[home.png](https://postimg.cc/QF7dvJb4)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Listado de productos
 
-### Analyzing the Bundle Size
+[productos.png](https://postimg.cc/vckmPNWx)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Detalle del producto
 
-### Making a Progressive Web App
+[detalle.png](https://postimg.cc/LnnX3pZM)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Carrito con productos
 
-### Advanced Configuration
+[carrito.png](https://postimg.cc/F1PzSRzZ)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Autor:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+Pablo Lovrich
+```
